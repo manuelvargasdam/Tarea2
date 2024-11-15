@@ -43,6 +43,9 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         // Instala la pantalla de inicio (SplashScreen) al abrir la app
+        // Configurar el idioma de la app al inicio según las preferencias
+        setLanguage(isSpanish());
+
         SplashScreen.installSplashScreen(this);
         super.onCreate(savedInstanceState);
 
@@ -50,9 +53,6 @@ public class MainActivity extends AppCompatActivity {
             // Configura el enlace y establece la vista raíz
             binding = ActivityMainBinding.inflate(getLayoutInflater());
             setContentView(binding.getRoot());
-
-            // Configurar el idioma de la app al inicio según las preferencias
-            setLanguage(isSpanish());
 
             // Obtiene el NavController desde el NavHostFragment
             FragmentManager fragmentManager = getSupportFragmentManager();
