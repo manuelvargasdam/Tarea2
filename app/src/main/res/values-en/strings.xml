@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">MarioBrossApp</string>
+    <string name="open_drawer">Open menú</string>
+    <string name="close_drawer">Close menú</string>
+    <string name="header_image_desc">profile image</string>
+    <string name="username">Username</string>
+    <string name="personaje_image">Character Image</string>
+    <string name="menu_acerca_de">About...</string>
+    <string name="acerca_de_message">Application developed by Manuel Vargas. Version 1.0.</string>
+    <string name="cerrar">Close.</string>
+    <string name="detalles_cargados">Details uploaded for </string>
+    <string name="error_detalles_cargados">Error loading character details</string>
+    <string name="seleccion_personaje">Character has been selected</string>
+    <string name="principal">Home</string>
+    <string name="ajustes">Settings</string>
+    <string name="idiomas">Languaje</string>
+</resources>
